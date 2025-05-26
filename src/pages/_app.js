@@ -1,5 +1,18 @@
-import "@/styles/globals.css";
+import '../styles/globals.css'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    })
+  }, [])
+
+  return <Component {...pageProps} />
 }
+
+export default MyApp
