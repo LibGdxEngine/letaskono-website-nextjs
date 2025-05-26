@@ -2,7 +2,7 @@
 // components/Hero.js
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-
+import { toast } from 'react-toastify';
 const Hero = () => {
   const [stats, setStats] = useState({ users: 0, stories: 0, rating: 0 })
 
@@ -50,7 +50,9 @@ const Hero = () => {
               Start your journey to meaningful relationships today.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+            <div onClick={()=>{
+              toast.info('Comming soon! Stay tuned for updates.');
+            }} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <a 
                 href="#" 
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 font-semibold rounded-full hover:bg-gray-50 transition-all transform hover:scale-105 shadow-lg"
@@ -61,7 +63,9 @@ const Hero = () => {
                 Download for iOS
               </a>
               <a 
-                href="#" 
+                href="https://drive.google.com/file/d/1xguej2J0GHiZ3khU6YLJ0Gj4W5ikD0Vn/view?usp=sharing" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gray-900 text-white font-semibold rounded-full hover:bg-gray-800 transition-all transform hover:scale-105 shadow-lg"
               >
                 <svg className="w-6 h-6 mr-3" viewBox="0 0 24 24">

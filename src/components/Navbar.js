@@ -23,9 +23,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`fixed top-0 w-full z-50 shadow-sm transition-all duration-300 ${
-      scrolled ? 'bg-white/98 backdrop-blur-md' : 'bg-white/95 backdrop-blur-md'
-    }`}>
+    <nav className={`fixed top-0 w-full z-50 shadow-sm transition-all duration-300 ${scrolled ? 'bg-white/98 backdrop-blur-md' : 'bg-white/95 backdrop-blur-md'
+      }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
@@ -34,7 +33,7 @@ const Navbar = () => {
             </div>
             <span className="text-2xl font-bold text-gray-900">Letaskono</span>
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-8">
             <button onClick={() => scrollToSection('features')} className="text-gray-700 hover:text-indigo-500 transition-colors">
               Features
@@ -45,15 +44,17 @@ const Navbar = () => {
             <button onClick={() => scrollToSection('testimonials')} className="text-gray-700 hover:text-indigo-500 transition-colors">
               Reviews
             </button>
-            <button 
-              onClick={() => scrollToSection('download')} 
+            <a
+              href='https://drive.google.com/file/d/1xguej2J0GHiZ3khU6YLJ0Gj4W5ikD0Vn/view?usp=sharing'
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-indigo-500 text-white px-6 py-2 rounded-full hover:bg-indigo-600 transition-all transform hover:scale-105"
             >
               Download
-            </button>
+            </a>
           </div>
-          
-          <button 
+
+          <button
             className="md:hidden p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -62,7 +63,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        
+
         {isOpen && (
           <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg z-40">
             <div className="px-4 py-6 space-y-4">
@@ -75,8 +76,8 @@ const Navbar = () => {
               <button onClick={() => scrollToSection('testimonials')} className="block text-gray-700 hover:text-indigo-500 transition-colors">
                 Reviews
               </button>
-              <button 
-                onClick={() => scrollToSection('download')} 
+              <button
+                onClick={() => scrollToSection('download')}
                 className="block bg-indigo-500 text-white px-6 py-2 rounded-full hover:bg-indigo-600 transition-all text-center w-full"
               >
                 Download
