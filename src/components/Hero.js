@@ -76,7 +76,7 @@ const Hero = () => {
                 iOS تحميل
               </a>
               <a
-                href="https://apkpure.com/p/com.letaskono.zwaj.letaskono_flutter"
+                href="https://apkpure.com/%D9%84%D8%AA%D8%B3%D9%83%D9%86%D9%88%D8%A7-%D9%84%D9%84%D8%B2%D9%88%D8%A7%D8%AC-%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A/com.letaskono.zwaj.letaskono_flutter/downloading"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gray-900 text-white font-semibold rounded-full hover:bg-gray-800 transition-all transform hover:scale-105 shadow-lg"
