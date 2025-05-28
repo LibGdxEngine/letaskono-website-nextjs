@@ -4,18 +4,18 @@ const HowItWorks = () => {
   const steps = [
     {
       number: "1",
-      title: "Create Your Profile",
-      description: "Sign up and create a detailed profile highlighting your Islamic values, interests, and what you're looking for in a partner."
+      title: "قم بتسجيل حسابك",
+      description: "سجل دخولك واملأ بياناتك الشخصية. نحن نأخذ خصوصيتك على محمل الجد، لذا يمكنك تخصيص إعدادات الخصوصية الخاصة بك كما تشاء."
     },
     {
       number: "2", 
-      title: "Smart Matching",
-      description: "Our intelligent algorithm suggests compatible matches based on your preferences, values, and Islamic lifestyle choices."
+      title: "ابحث عن زوجك",
+      description: "قم بالبحث عن زوجك من خلال واجهة مستخدم بسيطة وسلسة. استخدم خيارات التصفية المتقدمة للعثور على الشخص المناسب لك."
     },
     {
       number: "3",
-      title: "Connect & Meet", 
-      description: "Start meaningful conversations in a respectful environment and take the next step toward building a beautiful Islamic marriage."
+      title: "توافق واحصل على رقم ولي الأمر", 
+      description: "توافق مع الشخص الذي يعجبك واحصل على رقم ولي الأمر للتواصل المباشر. نحن نساعدك في كل خطوة لضمان تجربة آمنة ومريحة."
     }
   ]
 
@@ -31,14 +31,14 @@ const HowItWorks = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16" data-aos="fade-up">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">How Letaskono Works</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">Simple steps to find your perfect Islamic match</p>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">كيفية عمل التطبيق ؟</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">بخطوات سهلة وبسيطة ستصل إلى غايتك ان شاء الله</p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="text-center" data-aos="fade-up" data-aos-delay={100 * (index + 1)}>
-              <div className="w-24 h-24 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl font-bold">
+              <div className="w-24 h-24 bg-gradient-to-br from-[#4b164c] to-[#dd88cf] rounded-full flex items-center justify-center mx-auto mb-6 text-white text-3xl font-bold">
                 {step.number}
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">{step.title}</h3>

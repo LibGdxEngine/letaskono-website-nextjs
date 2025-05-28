@@ -11,14 +11,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Letaskono - Find Your Perfect Islamic Match | Halal Marriage App</title>
-        <meta name="description" content="Discover meaningful Islamic relationships with Letaskono - the premier halal marriage app connecting Muslim singles worldwide. Join thousands finding their perfect match today." />
-        <meta name="keywords" content="Islamic marriage app, Muslim dating, halal relationships, Islamic matrimony, Muslim singles, marriage app" />
+        <title>لتسكنوا - للزواج الإسلامي | طريقك لزواج إسلامي صحيح</title>
+        <meta name="description" content="لتسكنوا هو التطبيق الأول في العالم الإسلامي للزواج بدون مخالفات شرعية مع توعية بضرورة احسان الاختيار" />
+        <meta name="keywords" content="مبادرة مجتمعية تهدف إلى تيسير الزواج وترغيب الشباب فيه مع وضع الدين والأخلاق كمعيار أول في عملية الاختيار" />
         <meta name="author" content="Letaskono" />
-        <meta property="og:title" content="Letaskono - Find Your Perfect Islamic Match" />
-        <meta property="og:description" content="The premier halal marriage app connecting Muslim singles worldwide" />
+        <meta property="og:title" content="لتسكنوا - طريقك لزواج إسلامي صحيح" />
+        <meta property="og:description" content="التطبيق الأول للزواج الإسلامي في العالم العربي" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://letaskono.com" />
+        <meta property="og:url" content="https://letaskono-zwaj.com.com" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +32,7 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "MobileApplication",
               "name": "Letaskono",
-              "description": "Islamic marriage app connecting Muslim singles worldwide in a halal environment",
+              "description": "مبادرة مجتمعية تهدف إلى تيسير الزواج وترغيب الشباب فيه مع وضع الدين والأخلاق كمعيار أول في عملية الاختيار",
               "applicationCategory": "Social",
               "operatingSystem": ["iOS", "Android"],
               "offers": {
@@ -56,14 +56,14 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Letaskono",
-              "url": "https://letaskono.com",
-              "logo": "https://letaskono.com/logo.png",
-              "description": "Premier Islamic marriage app connecting Muslim singles worldwide",
-              "sameAs": [
-                "https://twitter.com/letaskono",
-                "https://facebook.com/letaskono",
-                "https://instagram.com/letaskono"
-              ]
+              "url": "https://letaskono-zwaj.com",
+              "logo": "https://letaskono-zwaj.com/_next/static/media/logo.757072d0.svg",
+              "description": "مبادرة مجتمعية تهدف إلى تيسير الزواج وترغيب الشباب فيه مع وضع الدين والأخلاق كمعيار أول في عملية الاختيار",
+              // "sameAs": [
+              //   "https://twitter.com/letaskono",
+              //   "https://facebook.com/letaskono",
+              //   "https://instagram.com/letaskono"
+              // ]
             })
           }}
         />
@@ -74,7 +74,7 @@ export default function Home() {
         <Hero />
         <Features />
         <HowItWorks />
-        <Testimonials />
+        {/* <Testimonials /> */}
         {/* <Download /> */}
         {/* <Footer /> */}
       </div>

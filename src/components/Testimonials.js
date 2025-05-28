@@ -2,9 +2,9 @@
 const Testimonials = () => {
   const testimonials = [
     {
-      initials: "A&S",
-      names: "Ahmed & Sarah",
-      year: "Married 2023",
+      initials: "A",
+      names: "م/عبد الرحمن",
+      year: "تزوج عام 2022",
       text: "Alhamdulillah, we found each other through Letaskono. The app's focus on Islamic values made our connection meaningful from the start. We're now happily married with our first child on the way!",
       rating: 5
     },
@@ -41,7 +41,7 @@ const Testimonials = () => {
               data-aos-delay={100 * (index + 1)}
             >
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                <div className="w-12 h-12 bg-[#4b164c] rounded-full flex items-center justify-center text-white font-bold mr-4">
                   {testimonial.initials}
                 </div>
                 <div>
