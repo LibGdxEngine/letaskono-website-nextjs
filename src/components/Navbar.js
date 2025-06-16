@@ -72,7 +72,7 @@ const Navbar = () => {
               تقييمات
             </button>
             <a
-              href="https://apkpure.com/p/com.letaskono.zwaj.letaskono_flutter"
+              href="https://play.google.com/store/apps/details?id=com.letaskono.zwaj.letaskono_flutter"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#4b164c] text-white px-6 py-2 rounded-full hover:bg-[#dd88cf] transition-all transform hover:scale-105"
@@ -120,7 +120,7 @@ const Navbar = () => {
                 تقييمات
               </button>
               <a
-                href="https://apkpure.com/p/com.letaskono.zwaj.letaskono_flutter"
+                href="https://play.google.com/store/apps/details?id=com.letaskono.zwaj.letaskono_flutter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#4b164c] text-white px-6 py-2 rounded-full hover:bg-[#dd88cf] transition-all transform hover:scale-105"
